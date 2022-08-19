@@ -10,5 +10,5 @@ while link != 'Exit':
     yd = yt.streams.get_highest_resolution()
 
     # ADD FOLDER HERE
-    yd.download('/Users/rohailramesh/Desktop')  
+    yd.download('/Users/rohailramesh/Desktop/Desktop/Music')  
     link = input('Enter link: ')
