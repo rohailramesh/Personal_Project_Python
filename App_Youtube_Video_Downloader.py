@@ -29,25 +29,10 @@ class MyApp(QWidget):
         url = self.inputField.text()
         yt = YouTube(url)
         yd = yt.streams.get_highest_resolution()
-        yd.download('/Users/rohailramesh/Desktop/Desktop/Music')
+        yd.download('ADD PATH HER')
         self.output.setText(f'Downloaded {yt.title}')
 
 app = QApplication(sys.argv)
-
-#Styling the sheet
-app.setStyleSheet(''' 
-    QWidget {
-        font-size : 25px
-    }
-
-    QPushButton{
-        font-size: 15px
-    }
-
-    QLineEdit{
-        font-size: 20px
-    }
-''')
 
 
 # creating an instance of the class
